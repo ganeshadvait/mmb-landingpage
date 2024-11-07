@@ -1,0 +1,18 @@
+.resources-content {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-size: cover;
+    margin: auto;
+
+}
+
+.resources-content:before {
+    content: "";
+    background: rgb(0 2 4 / 68%);
+
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}

@@ -1,0 +1,22 @@
+.login-wrapper{
+    width:50%;
+    margin: auto;
+    height: 90vh;
+    padding: 15% 5%;
+        position: absolute;
+            margin-left: 25%;
+            padding-top: 5%;
+}
+.login-wrapper label{
+    width: 100%;
+    text-align: left;
+    color: white;
+}
+.sidenav{
+    height: 250px;
+        background-color: #d84f57;
+}
+#sidenav a{
+    padding: 5px;
+    text-align: center;
+}

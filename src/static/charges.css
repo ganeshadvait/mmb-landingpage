@@ -1,0 +1,203 @@
+.fixer {
+    height: 84px;
+    z-index: 9;
+    background-color: white;
+}
+
+.bread-wrapper {
+    display: flex;
+}
+
+.bread-item {
+    margin: 0 20px;
+    min-width: 10%;
+    text-align: left;
+}
+
+#chargesForm {
+    width: 50%;
+    margin: auto;
+}
+
+.text-lab {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: math;
+}
+
+.charges-tab {
+    border: 2px sold black;
+}
+
+.notehr {
+    vertical-align: middle;
+    width: 40%;
+    font-size: 30px;
+    color: #d84f55;
+}
+
+.notecls {
+    color: black;
+    font-size: 15px
+}
+
+.biketrcls {
+    width: 40%;
+}
+
+.frcls {
+    width: 25%;
+}
+
+.booking-sub {
+    position: absolute;
+}
+
+.lermorecl {
+    color: #d84f55;
+}
+
+.modal .review-modal {
+    position: fixed;
+    max-width: unset;
+    width: 50%;
+    min-height: 100%;
+    right: 0;
+    left: unset;
+}
+
+.modal .alert-modal {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    top: 15%;
+}
+
+.modal-dialog {
+    margin: 0px;
+}
+
+.alert-modal .modal-content {
+    width: 700px;
+    border-radius: 0px;
+    right: 0px;
+}
+
+.review-modal .modal-content {
+    border-radius: 0px;
+    min-height: 100vh;
+}
+
+.review-wrapper {
+    border: 1px solid lightgray;
+    border-radius: 7px
+}
+
+.radio-container {
+    display: flex;
+    align-items: center;
+}
+
+.charges-tab tr td:first-child,
+.charges-tab tr td:last-child {
+    text-align: left;
+    padding-left: 3%;
+    
+}
+
+.book-wrapper-child input {
+    background-color: transparent!important;
+    color: white!important;
+    border: none!important;
+    border-bottom: 1px solid white!important;
+    border-radius: 0!important;
+    padding-left: 0px!important;
+}
+
+.addrval input {
+    margin-right: auto;
+    width: 32%;
+}
+
+/* 
+.addrval {
+    display: flex;
+} */
+
+.checkboxwithlable .main-row-container {
+    box-shadow: 0px 1px 20px 20px #8888880d;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 200px;
+}
+
+.modal-body h5 {
+    text-align: center;
+    font-size: 31px;
+    color: green;
+    padding: 15px;
+}
+
+.modal-body h6 {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.modal-header {
+    background-color: #dc3545;
+    color: white;
+    border-radius: 0;
+}
+
+.head-details {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.Address-wrapper {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.review-modal {
+    pointer-events: none;
+}
+
+.loader-cls {
+    position: absolute;
+    top: 30%;
+    z-index: 9999;
+    width: 100px;
+    right: 43%;
+
+}
+.book-wrapper-child .form-select{
+    background-color: transparent!important;
+    color: white!important;
+    border: none!important;
+    border-bottom: 1px solid white!important;
+    border-radius: 0!important;
+    padding-left: 5px;
+}
+#chargesForm input{
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+.freight-container{
+    
+    border: 1px solid lightgray;
+    margin-bottom: 3%;
+    border-radius: 6px;
+    padding-top: 3%;
+    background-color: #f1948a2b;
+    box-shadow: 0px 1px 20px 20px #8888880d;
+}

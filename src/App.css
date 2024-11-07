@@ -1,0 +1,98 @@
+body {
+  overflow-y: auto !important;
+  ;
+  padding-right: 0 !important;
+  overflow-x: hidden !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.text-danger-color {
+  color: gold !important;
+  font-size: 12px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#message, #email, #name,#mobilenum {
+  color: #282c34!important;
+  border: 1px solid #ced4da !important;
+  border-radius: 5px!important;
+  padding: 8px!important;
+}
+
+.danger-text {
+  display: flex;
+  color: #b8111a;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 20px
+}
+
+.bullet-features li .btn-danger {
+  padding: 2px 8px;
+  margin-left: 10px;
+  background-color: #77091e;
+}
+
+.dropdown-menu{
+  top: 100%;
+  /* width: 135px; */
+  min-width: 150px;
+  padding: 0%;
+  border-radius: 0;
+  background-color: #b8111a;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+  background-color: #f1948a;
+  color: white;
+}
+.dropdown-item{
+  padding: 10px;
+}
+.form-select:focus, .form-control:focus{
+  box-shadow: none;
+}
+select option {
+  background:  #fff;
+  color: black
+}

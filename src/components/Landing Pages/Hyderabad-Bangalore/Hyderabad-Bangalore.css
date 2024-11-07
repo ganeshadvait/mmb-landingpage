@@ -1,0 +1,32 @@
+p, a{
+  font-family: 'Movemybike';
+    font-weight: 400;
+    color: #2c3750 !important;
+  }
+  li{
+    font-family: 'GoogleSans' !important;
+    font-weight: Regular;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Movemybike';
+    font-weight: bold;
+  }
+
+@font-face {
+    font-family: 'GoogleSans';
+    src: url('.../../../../Assets/Fonts/GoogleSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'movemybike';
+    src: url('../../Assets/Fonts/New\ Reason\ Regular.otf') format('opentype');
+    font-weight: Regular;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Movemybike';
+    src: url('../../Assets/Fonts/New\ Reason\ Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }

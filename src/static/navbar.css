@@ -1,0 +1,83 @@
+.App .navbar#main-nav{
+    width: 100%;
+    background: #b8111a;
+    height: 60px !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.mobile-menu nav {
+    
+    background: #b8111a;
+    color: #fff;
+}
+.navbar .container-fluid {
+    display: flex;
+    width: 100%;
+}
+.navbar-nav{
+    list-style: none;
+}
+.collapse.navbar-collapse{
+    flex-direction: row-reverse;
+}
+.navbar-nav li{
+    padding:0px 25px;
+        display: flex;
+            align-items: center;
+}
+.App .navbar .nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-item a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn-red{
+        margin-left: 25px;
+            color: #fff;
+            border-radius: 4px;
+            padding: 8px 25px;
+            white-space: nowrap;
+            transition: 0.3s;
+            font-size: 14px;
+            display: inline-block;
+            border: 2px solid #fff;
+}
+.social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+.footer,.footer a{
+    background-color:#15222b;
+    color: #fff;
+    text-decoration: none;
+}
+.footer{
+    padding-top: 20px;
+}
+.social-links a:hover {
+    background: #ff4a17;
+    color: #fff;
+    text-decoration: none;
+}
+.bread-wrapper{
+    box-shadow: 0px 1px 20px 20px #8888880d;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+

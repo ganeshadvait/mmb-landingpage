@@ -1,0 +1,19 @@
+.networkabout {
+    color: black;
+    padding: 0% 2% 2% 2%;
+}
+
+
+.networkimages {
+    color: black;
+    padding-left: 5%;
+}
+
+.ournetwork .item img {
+    width: 500px;
+    height: 400px;
+}
+
+.ournetwork .owl-dot {
+    display: none;
+}

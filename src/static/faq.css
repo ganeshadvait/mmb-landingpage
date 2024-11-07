@@ -1,0 +1,22 @@
+.accordion{
+    width: 75%;
+        margin: auto;
+}
+.FaqContent-wrapper{
+    padding: 5%;
+}
+.accordion-button:not(.collapsed){
+    background-color: #b8111a!important;
+    color: #fff !important;
+}
+.accordion-button:focus{
+    border: unset!important;
+        box-shadow: none!important;
+}
+.accordion-body{
+    text-align: left;
+}
+.shipping-process {
+    margin: 2rem;
+    padding: 2rem;
+}

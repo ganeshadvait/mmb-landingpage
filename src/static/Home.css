@@ -1,0 +1,268 @@
+.hero-container .form-container {
+    width: 60%;
+    margin: auto;
+    padding: 5% 0px;
+}
+
+.row .form-group {
+    padding: 10px 10px 0 10px;
+    text-align: left;
+}
+
+.react-datepicker__input-container input {
+    width: 100%;
+    border: 1px solid lightgrey;
+    height: 37px;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.main-component {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.main-component:before {
+    content: "";
+    background: rgb(13 20 26 / 85%);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.main-component {
+    width: 100%;
+    min-height: calc(100vh-70px);
+    height: auto;
+    background: url(https://wallpaper-house.com/data/out/21/wallpaper2you_6173.jpg) top center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+
+.main-wrapper {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+}
+.main-wrapper label {
+    color: white;
+    font-size: 16px;
+}
+
+.content-wrapper {
+    color: white;
+    padding: 5%;
+    z-index: 1;
+}
+
+.book-wrapper-child {
+    background-color: #f1eced24;
+    border-radius: 18px;
+    z-index: 1;
+    width: 80%;
+    padding: 5%;
+
+}
+
+.book-wrapper h3{
+    font-size: 20px;
+}
+.book-wrapper .btn{
+    width: 80px;
+    margin: 8px auto;
+    font-size: 15px;
+}
+.bullet-features {
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+}
+
+.bullet-features li {
+    font-size: 20px;
+    background: url(../img/tick.png) 0 5px no-repeat;
+    padding-left: 20px;
+}
+.services a{
+    color: #da2d3b;
+    text-decoration: none;
+}
+
+/* .content-wrapper {
+    color: black;
+    width: 34%;
+    padding: 5% 2% 0 2%;
+    background-color: white;
+    height: 90vh;
+} */
+.location-icon {
+    background: url(../img/location-icon.png) 0 0px no-repeat;
+    padding-left: 20px;
+    background-size: 15px;
+}
+
+.bullet-features li h4 {
+    font-size: 22px;
+}
+
+.content-wrapper h1 {
+    font-size: 25px;
+}
+.fullBanner .owl-item:before {
+    content: "";
+    background:rgb(13 20 26 / 82%);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.fullBanner .owl-carousel .owl-item img,
+.fullBanner .owl-item,
+.owl-carousel .owl-item img {
+    height: calc(100vh - 60px);
+}
+
+
+.book-wrapper-child .form-control::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ced4da;
+    opacity: 1;
+    /* Firefox */
+}
+.book-wrapper-child .form-control:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #ced4da;
+}
+
+.book-wrapper-child .form-control::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #ced4da;
+}
+
+.book-wrapper {
+    z-index: 1;
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: white;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.subComponentbanner {
+    position: relative;
+    background-size: cover;
+}
+
+.exclusive-wrap {
+    top: 0;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+}
+
+.exclusive-bg {
+    opacity: 0.8;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.exclusive-content {
+    position: relative;
+}
+
+.exclusive-wrap:before {
+    content: "";
+    background-color:#000000b5;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.icon-bar-wrap {
+    position: fixed;
+    z-index: 999;
+    top: calc(100vh - 85px);
+    width: 100%;
+}
+
+.icon-bar {
+    position: absolute;
+    -webkit-animation: linear infinite;
+    animation: linear 5;
+    -webkit-animation-name: run;
+    animation-name: run;
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;
+    color: white;
+    left: calc(100% - 500px);
+}
+
+@-webkit-keyframes run {
+    0% {
+        left: 0;
+    }
+
+    48% {
+        -webkit-transform: rotateY(0deg);
+    }
+
+    50% {
+        left: calc(100% - 300px);
+        -webkit-transform: rotateY(180deg);
+    }
+
+    98% {
+        -webkit-transform: rotateY(180deg);
+    }
+
+    100% {
+        left: 0;
+        -webkit-transform: rotateY(0deg);
+    }
+}
+
+@keyframes run {
+    0% {
+        left: 0;
+    }
+
+    48% {
+        -webkit-transform: rotateY(0deg);
+    }
+
+    50% {
+        left: calc(100% - 500px);
+        -webkit-transform: rotateY(0deg);
+    }
+
+    98% {
+        -webkit-transform: rotateY(0deg);
+    }
+
+    100% {
+        left: 0;
+        -webkit-transform: rotateY(0deg);
+    }
+}
+.contact-scroll{
+    background-color:#bb2d3b;color:white;padding:10px;margin-left:10px;border-radius: 20px;
+}

@@ -12,6 +12,7 @@ import Packages from "../../Lcomponents/Packages";
 import Reviews from "../../Lcomponents/Reviews";
 import SbsGuide from "../../Lcomponents/sbsGuide";
 import LpLocations from "../../Lcomponents/LpLocations";
+import Faqs from "../../Lcomponents/Lfaqs";
 
 
 function HyderabadtoBangalore() {
@@ -26,6 +27,7 @@ function HyderabadtoBangalore() {
         <Reviews />
         <SbsGuide />
         <LpLocations />
+        <Faqs />
         <BeforeFooter />
             <Lfooter />
             {/* <Lstepform /> */}

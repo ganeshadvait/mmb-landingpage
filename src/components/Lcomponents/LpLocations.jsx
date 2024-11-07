@@ -14,6 +14,17 @@ const LpLocations = () => {
         "Bike Transport from Bangalore to Jaipur",
         "Bike Transport from Bangalore to Lucknow",
         "Bike Transport from Bangalore to Chandigarh",
+        "Bike Transport from Bangalore to Kolkata",
+        "Bike Transport from Bangalore to Goa",
+        "Bike Transport from Bangalore to Ahmedabad",
+        "Bike Transport from Bangalore to Jaipur",
+        "Bike Transport from Bangalore to Lucknow",
+        "Bike Transport from Bangalore to Chandigarh",
+        "Bike Transport from Bangalore to Goa",
+        "Bike Transport from Bangalore to Ahmedabad",
+        "Bike Transport from Bangalore to Jaipur",
+        "Bike Transport from Bangalore to Lucknow",
+        "Bike Transport from Bangalore to Chandigarh",
         "Bike Transport from Bangalore to Bhopal"
     ];
 
@@ -27,7 +38,7 @@ const LpLocations = () => {
 
     // Styles
     const sectionStyle = {
-        padding: '40px 0',
+        padding: '100px 0',
         backgroundColor: '#f9f9f9'
     };
 
@@ -64,7 +75,7 @@ const LpLocations = () => {
                 <h3>Popular Locations</h3>
                 <div style={gridStyle} className="colu">
                     {locations.map((location, index) => (
-                        <div key={index}>
+                        <div key={index} className="here-left">
                             {location}
                         </div>
                     ))}

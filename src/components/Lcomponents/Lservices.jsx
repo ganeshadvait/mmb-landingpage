@@ -9,12 +9,12 @@ const Lservices = () => {
     ];
 
     const serviceCards = [
-        { id: 1, imageSrc: "", description: "We specialize in providing the following transportation services" },
-        { id: 2, imageSrc: "", description: "We specialize in providing the following transportation services" },
-        { id: 3, imageSrc: "", description: "We specialize in providing the following transportation services" },
-        { id: 4, imageSrc: "", description: "We specialize in providing the following transportation services" },
-        { id: 5, imageSrc: "", description: "We specialize in providing the following transportation services" },
-        { id: 6, imageSrc: "", description: "We specialize in providing the following transportation services" }
+        { id: 1, imageSrc: "", description: "We specialize in providing the transportation services" },
+        { id: 2, imageSrc: "", description: "We specialize in providing the transportation services" },
+        { id: 3, imageSrc: "", description: "We specialize in providing the transportation services" },
+        { id: 4, imageSrc: "", description: "We specialize in providing the transportation services" },
+        { id: 5, imageSrc: "", description: "We specialize in providing the transportation services" },
+        { id: 6, imageSrc: "", description: "We specialize in providing the transportation services" }
     ];
 
     return (

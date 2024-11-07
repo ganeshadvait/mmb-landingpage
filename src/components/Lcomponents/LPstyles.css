@@ -113,7 +113,7 @@ html {
     border: 1px solid;
     padding: 12px 24px;
     border-radius: 16px;
-    background: #f00000;
+    background: #B64141;
     color: #fff;
 }
 .ctas-container button:first-child {
@@ -299,13 +299,13 @@ input{
     border: 1px solid;
     padding: 12px 24px;
     border-radius: 16px;
-    background: #f33333;
+    background: #B64141;
     color: #fff;
 }
 .mobile-menu-drawer div div button:hover{
     background: transparent;
     color: #080808;
-    border: 1px solid #f33333;
+    border: 1px solid #B64141;
 }
 .hero-section{
     /* background-color: #f33333; */
@@ -348,7 +348,7 @@ input{
     padding: 12px 24px;
     border-radius: 16px;
     background: #fff;
-    color: #f33333;
+    color: #B64141;
     transition: transform .3s, background-color .3s, box-shadow .3s;
     box-shadow: 0 2px 6px #ff2d4626;
 }
@@ -482,8 +482,8 @@ input, select {
         box-shadow: 0 2px 6px 0 var(--general--shadow-01) !important;
     }
     button[type="submit"]{
-        border: 1px solid #f33333;
-        background:#f33333 !important;
+        border: 1px solid #B64141;
+        background:#B64141 !important;
         color: #ffffff;
         margin-top: 25px;
     }
@@ -1167,4 +1167,69 @@ width: 65%;
   grid-template-columns: 1fr !important;
     }
   }
+  div{
+    font-family: 'movemybike' !important;
+  }
+  .here-left{
+    text-align: left;
+  }
+  /* faqs design starts here */
+  .faqs{
+    width: 90%;
+    margin: 1px auto;
+    display: flex;
+    align-items: start;
+    padding: 40px 10px;
+  }
+  .LR-containers{
+    width: 50%;
+    height: auto;
+  }
+  .LR-containers h3:nth-child(1){
+    text-align: left;
+    margin-top: 14px;
+  }
+  .LR-containers h3:nth-child(2){
+    text-align: left;
+  }
+  .LR-containers h3:nth-child(3){
+    text-align: left;
+  }
+  .faq-item{
+    text-align: left;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 14px;
+    border: 1px solid #E5E3F0;
+  }
+  .faq-question{
+    font-size: 1rem;
+  }
+  .faq-question, .faq-answer{
+    margin-bottom: 0;
+  }
   
+  .faq-answer{
+    margin-top: 10px;
+  }
+  
+  @media (max-width:479px) {
+    .faqs{
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 40px 0;
+    }
+    .LR-containers{
+        width: 100%;
+        height: auto;
+      }
+  }
+  /* before footer styles starts here */
+  .outerline{
+    width: 90%;
+    background-color: #B64141;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 62px 42px;
+  }

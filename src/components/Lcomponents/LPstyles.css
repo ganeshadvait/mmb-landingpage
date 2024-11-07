@@ -1162,3 +1162,9 @@ width: 65%;
   .flex{
     display: flex;
   }
+  @media (max-width:479px) {
+    .colu{
+  grid-template-columns: 1fr;
+    }
+  }
+  

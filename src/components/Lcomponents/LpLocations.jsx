@@ -62,7 +62,7 @@ const LpLocations = () => {
             <p className="left">{content[0].para}</p>
             <div style={Fff}>
                 <h3>Popular Locations</h3>
-                <div style={gridStyle}>
+                <div style={gridStyle} className="colu">
                     {locations.map((location, index) => (
                         <div key={index}>
                             {location}

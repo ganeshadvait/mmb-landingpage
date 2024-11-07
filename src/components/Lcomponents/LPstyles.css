@@ -1164,7 +1164,7 @@ width: 65%;
   }
   @media (max-width:479px) {
     .colu{
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr !important;
     }
   }
   
